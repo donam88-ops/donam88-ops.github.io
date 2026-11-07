@@ -1,0 +1,29 @@
+.centered {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    color: white;
+    background-color: #d14081;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.intro {
+    max-width: 400px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+    footer {
+        background-color: #d14081;
+        color: antiquewhite;
+    }
+
+    .centered {
+        text-align: center;
+
+    }
+
+}
