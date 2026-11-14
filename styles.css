@@ -1,31 +1,78 @@
-.centered {
-    text-align: center;
+/* Background picture for the entire webpage */
+
+body {
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
 }
+
+/* Header styling */
 
 header {
     display: flex;
     color: white;
-    background-color: #d14081;
-    justify-content: space-evenly;
+    background-color: rgba(101, 165, 217, 0.75);
+    justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
+/* Profile picture */
+
+.profilepic {
+    border-radius: 20px;
+}
+
+/* Main content */
+
+main {
+    padding-left: 25px;
+    text-align: center;
+}
+
+/* Sections */
+
+.sections {
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+/* Intro heading */
 
 .intro {
-    max-width: 400px;
+    max-width: 500px;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-    footer {
-        background-color: #d14081;
-        color: antiquewhite;
-    }
+.intro:hover {
+    text-shadow: 2px 2px;
+}
 
-    .centered {
-        text-align: center;
+/* Centered content */
 
-    }
+.centered {
+    text-align: center;
+}
 
-}    footer {
-        background-color: #d14081;
-        color: antiquewhite;
+/* Footer */
+
+footer {
+    background-color: rgba(101, 165, 217, 0.75);
+    padding: 20px;
+}
+
+footer a {
+    color: white;
